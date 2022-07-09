@@ -17,7 +17,7 @@ Trenutna internetna stran [Techserract](https://www.techserract.com), ki sem jo 
 Zato bo od sedaj naprej moja uradna stran gostovana na github-u. To doprinese dosti novosti. Hitrejša odzivnost internetne strani, iskalnik, tagging, kategorije. Vse kar rabim, takoj dosegljivo, da je tudi za vas bolj stran razumljiva.
 
 ```python
-print (Se beremo!)
+print ("Se beremo!")
 ```
 
 ![img-desctiption](https://images.unsplash.com/photo-1531804055935-76f44d7c3621?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80)
