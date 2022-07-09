@@ -12,7 +12,7 @@ Dobrodošli na moji novi internetni strani!
 
 ## Spremembe
 
-Trenutna internetna stran [Techserract](https://www.techserract.com), ki sem jo sicer imel več kot 10 let in gostoval na Wordpress-u bo uradno dosegla konec življenja. Na začetku sem internetno stran imel kot neke vrste blog, kjer je bil amožnost komentiranja na vsako objavo, vendar ni bila stran kaj preveč aktivna in z današnjimi časi obstajajo boljše platforme za komuniciranje (Discord,....).
+Trenutna internetna stran [Techserract](https://www.techserract.com), ki sem jo sicer imel več kot 10 let in gostoval na Wordpress-u bo uradno dosegla konec življenja. Na začetku sem internetno stran imel kot neke vrste blog, kjer je bila možnost komentiranja na vsako objavo, vendar ni bila stran kaj preveč aktivna in z današnjimi časi obstajajo boljše platforme za komuniciranje (Discord,....).
 
 Zato bo od sedaj naprej moja uradna stran gostovana na github-u. To doprinese dosti novosti. Hitrejša odzivnost internetne strani, iskalnik, tagging, kategorije. Vse kar rabim, takoj dosegljivo, da je tudi za vas bolj stran razumljiva.
 
