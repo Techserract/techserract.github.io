@@ -23,7 +23,7 @@ timezone: Europe/Ljubljana
 
 title: Techserract                          # the main title
 
-tagline: HomeLab Docs   # it will display as the sub-title
+tagline: I see your 3D world in a 2D way!   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful HomeLab Docs.
