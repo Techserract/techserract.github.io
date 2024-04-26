@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Za tiste, ki me morda ne poznate sem Andrej, star sem 35 in sem iz majhne države z imenom Slovenija.
+Za tiste, ki me morda ne poznate sem Andrej, star sem 37 in sem iz majhne države z imenom Slovenija.
 
 GAMING LIFE
 
