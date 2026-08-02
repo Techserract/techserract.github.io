@@ -1,0 +1,10 @@
+---
+---
+
+@import "main";
+
+/* Force Twitch and YouTube onto a separate second row */
+.sidebar-bottom a[href*="twitch.tv"],
+.sidebar-bottom a[href*="youtube.com"] {
+  flex-basis: 100%;
+}

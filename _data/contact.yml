@@ -17,9 +17,11 @@
 - 
   type: twitch
   icon: 'fab fa-twitch'
+  url: 'https://www.twitch.tv/techserract'
 - 
   type: youtube
   icon: 'fab fa-youtube'
+  url: 'https://www.youtube.com/@techserract'
 # Uncomment and complete the url below to enable more contact options
 # -
 #   type: mastodon
