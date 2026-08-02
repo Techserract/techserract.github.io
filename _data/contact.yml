@@ -14,7 +14,14 @@
   type: rss
   icon: 'fas fa-rss'
   noblank: true
-
+- 
+  type: twitch
+  icon: "fa-brands fa-twitch"
+  url: "https://www.twitch.tv/techserract"
+- 
+  type: youtube
+  icon: "fa-brands fa-youtube"
+  url: "https://www.youtube.com/@techserract"
 # Uncomment and complete the url below to enable more contact options
 # -
 #   type: mastodon
