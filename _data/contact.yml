@@ -14,6 +14,9 @@
   type: rss
   icon: 'fas fa-rss'
   noblank: true
+-
+  type: custom
+  icon: 'fas fa-circle'
 - 
   type: twitch
   icon: 'fab fa-twitch'
@@ -22,9 +25,6 @@
   type: youtube
   icon: 'fab fa-youtube'
   url: 'https://www.youtube.com/@techserract'
--
-  type: custom
-  icon: 'fas fa-circle'
 # Uncomment and complete the url below to enable more contact options
 # -
 #   type: mastodon
