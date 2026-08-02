@@ -13,6 +13,7 @@ Since January 2026 I resumed streaming full-time again.
 The Stream schedule is:
 - Monday 21:00 CET
 - Friday 21:00 CET
+
 Be sure to come join in and hang.
 
 Currently it's almost exclusively playing ARC Raiders with occasional other games.
