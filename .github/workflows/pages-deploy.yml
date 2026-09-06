@@ -7,6 +7,7 @@ on:
       - .gitignore
       - README.md
       - LICENSE
+  workflow_dispatch:
 
 jobs:
   continuous-delivery:
@@ -15,14 +16,14 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0  # for posts's lastmod
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7
+          ruby-version: 3.4
           bundler-cache: true
 
       - name: Deploy
