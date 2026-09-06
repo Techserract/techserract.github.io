@@ -1,0 +1,126 @@
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("consent", "default", {
+    ad_storage: "denied",
+    analytics_storage: "denied",
+    ad_user_data: "denied",
+    ad_personalization: "denied"
+  });
+</script>
+<script defer src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.id }}"></script>
+<script>
+  (function () {
+    var CONSENT_KEY = "ga-consent";
+    var MEASUREMENT_ID = "{{ site.analytics.google.id }}";
+
+    function consent(status) {
+      window.gtag("consent", "update", {
+        analytics_storage: status,
+        ad_storage: status,
+        ad_user_data: status,
+        ad_personalization: status
+      });
+    }
+
+    function initGA() {
+      window.gtag("js", new Date());
+      window.gtag("config", MEASUREMENT_ID);
+    }
+
+    function buildBanner() {
+      var banner = document.createElement("div");
+      banner.id = "ga-consent-banner";
+      banner.setAttribute("role", "dialog");
+      banner.setAttribute("aria-live", "polite");
+      banner.style.cssText = [
+        "position:fixed",
+        "left:0",
+        "right:0",
+        "bottom:0",
+        "z-index:2000",
+        "background-color:var(--card-bg)",
+        "border-top:1px solid var(--main-border-color)",
+        "box-shadow:0 -4px 16px rgba(0,0,0,.18)",
+        "color:var(--text-color)",
+        "font-family:inherit",
+        "font-size:.9rem",
+        "display:flex",
+        "flex-wrap:wrap",
+        "align-items:center",
+        "justify-content:space-between",
+        "gap:1rem",
+        "padding:.85rem 1.25rem"
+      ].join(";");
+
+      var text = document.createElement("p");
+      text.style.cssText = "margin:0;max-width:56ch;";
+      text.textContent =
+        "This site uses Google Analytics cookies to understand how visitors use it. You can accept or decline analytics cookies.";
+      var link = document.createElement("a");
+      link.href = "https://policies.google.com/technologies/cookies";
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = "Google cookie policy";
+      text.appendChild(document.createTextNode(" "));
+      text.appendChild(link);
+
+      var actions = document.createElement("div");
+      actions.style.cssText = "display:flex;gap:.6rem;flex-shrink:0;";
+
+      function makeButton(label, filled) {
+        var btn = document.createElement("button");
+        btn.type = "button";
+        btn.textContent = label;
+        btn.style.cssText = filled
+          ? "padding:.55rem 1.1rem;border-radius:6px;cursor:pointer;font-size:.85rem;background-color:#348d83;border:1px solid #348d83;color:#fff;"
+          : "padding:.55rem 1.1rem;border-radius:6px;cursor:pointer;font-size:.85rem;background-color:transparent;border:1px solid var(--main-border-color);color:var(--text-color);";
+        return btn;
+      }
+
+      var accept = makeButton("Accept", true);
+      var decline = makeButton("Decline", false);
+
+      accept.addEventListener("click", function () {
+        try {
+          window.localStorage.setItem(CONSENT_KEY, "accepted");
+        } catch (e) {}
+        consent("granted");
+        banner.remove();
+      });
+      decline.addEventListener("click", function () {
+        try {
+          window.localStorage.setItem(CONSENT_KEY, "declined");
+        } catch (e) {}
+        consent("denied");
+        banner.remove();
+      });
+
+      actions.appendChild(accept);
+      actions.appendChild(decline);
+      banner.appendChild(text);
+      banner.appendChild(actions);
+      document.body.appendChild(banner);
+    }
+
+    var stored = null;
+    try {
+      stored = window.localStorage.getItem(CONSENT_KEY);
+    } catch (e) {}
+
+    if (stored === "accepted") {
+      consent("granted");
+      initGA();
+    } else if (stored === "declined") {
+      consent("denied");
+      initGA();
+    } else {
+      document.addEventListener("DOMContentLoaded", function () {
+        initGA();
+        buildBanner();
+      });
+    }
+  })();
+</script>
