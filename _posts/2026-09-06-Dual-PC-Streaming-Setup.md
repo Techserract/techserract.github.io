@@ -1,6 +1,6 @@
 ---
 title: Dual PC Streaming - No extra hardware required
-date: 2026-09-06 18:00:00 +0200
+date: 2025-11-23 12:00:00 +0200
 categories: [youtube]
 tags: [youtube,streaming]  #TAG names should always be lowecase
 ---
