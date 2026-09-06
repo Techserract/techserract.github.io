@@ -1,11 +1,9 @@
 ---
-title: Hello World
+title: Hello World from AI
 date: 2026-09-06 12:02:47 +0200
 categories: [AI]
 tags: [ai,blogging]  #TAG names should always be lowecase
 ---
-
-# Hello World
 
 This is my very first post created entirely through an AI assistant.
 
