@@ -1,11 +1,11 @@
 ---
-title: Dual PC Streaming Setup - The easiest way possible (no capture card needed)!
+title: Dual PC Streaming - No extra hardware required
 date: 2026-09-06 18:00:00 +0200
-categories: [streaming]
+categories: [youtube]
 tags: [youtube,streaming]  #TAG names should always be lowecase
 ---
 
-# Dual PC Streaming Setup - The easiest way possible (no capture card needed)!
+# Dual PC Streaming - No extra hardware required
 
 A dual PC streaming setup doesn't have to start with an expensive capture card. In this video I walk through the whole process of getting your gaming and streaming machines working together — using **NDI over your local network** instead of a capture card.
 
