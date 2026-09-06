@@ -4,10 +4,14 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-For those who might not know me, I am Andrej, I'm 40 years old, and I'm from a small country called Slovenia.
+Hi, I'm Andrej — better known online as **Techserract**, from a small country called Slovenia.
 
-GAMING LIFE
+Before it was a career, the internet was a playground. In my student days I wired up private PC networks and hand-coded HTML pages, and back when optical fiber stopped short of western Slovenia, I helped bring the first main internet branch to a region that simply didn't have one. Building things people could actually use hooked me for life — and I've kept my hands in the hardware ever since.
 
-I started my gaming journey at 6 years old with handheld games (the ones you could get from magazines and similar), where you could only move to 3 different positions. An example of such a game was... you were a little man carrying a bucket and you had to collect water drops falling from clothes while they were drying. Then came the Atari 2600 (yeah, I barely missed the Commodore era), followed by Nintendo with the Game Boy and the NES, and of course I just had to have the SNES as well. Naturally, I had to get the Nintendo 64 later on too. So I suppose I was more of a Nintendo follower, and as far as consoles go, I still am. But that simply wasn't enough to satisfy my gaming needs. Back then, computers were too expensive, so consoles were the only alternative. That's when Sony arrived with the PlayStation/PS2, followed by Microsoft with the original Xbox. So yeah, you could say I had every possible console under the sun back then. That's a solid 24 years of gaming. I must also mention playing PC games, because back then I was in a clan that played Unreal Tournament '99 and Unreal Tournament 2k4 like crazy, so much so that we even participated in some ladders on the Clanbase website, though we weren't that good. Still, great times!
+By day I'm a system administrator, where the stakes are real: downtime isn't an option and "good enough" isn't either. Before that, I ran corporate digital archiving and fought my way up through the help desk trenches — always the person who reacts fast, adapts faster, and would rather hunt for a fix than dwell on a mistake. At home, that same spirit lives on in my homelab: networks, virtualization, servers, and the occasional soldering session when curiosity outruns the manual.
 
-That's pretty much my life story, playing games and enjoying playing with other people.
+The gamer in me is older than the career. It began with a little handheld machine where the hero could only reach three positions — carrying a bucket, catching water drops from drying clothes (you know the one). Then the Atari 2600, the Game Boy/NES/SNES haul through Nintendo's golden era — and I still carry the Nintendo torch. The PlayStation and original Xbox eventually joined the party too. When PCs finally entered the picture, I dove into Unreal Tournament '99 and UT 2004 with a clan, chasing our fifteen minutes on the Clanbase ladders. We weren't that good. It was still the best of times. And on the side, I could often be found holding a lane on a Wolfenstein: Enemy Territory server — a game from a golden era that never quite let go.
+
+Online I've worn a few names across the years — **TriX**, **Apocalyps3**, and now **Techserract** — under which I write, stream, and tinker. Or, as my profile puts it: *I see your 3D world in a 2D way.*
+
+If you're here, you're probably the same kind of person: someone who likes things that run *right* and learns by doing. Stay a while — there's always another project on the bench.
